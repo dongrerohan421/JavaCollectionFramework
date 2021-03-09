@@ -147,7 +147,7 @@ public class ArrayListExample {
         // ArrayList example of retainAll() method
         list.retainAll(list4);
         System.out.println("Iterating the elements after retaining the elements of list4:");
-        Iterator iterator3 = list.iterator();
+        Iterator<String> iterator3 = list.iterator();
         while (iterator3.hasNext()) {
             System.out.println(iterator3.next());
         }
