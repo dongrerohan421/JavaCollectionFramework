@@ -17,9 +17,9 @@ It inherits the AbstractList class and implements List interface.
 ### Constructors of ArrayList
 | Constructor | Description |
 | :---------- | :---------- |
-| `ArrayList()` | It is used to build an empty array list.
-| `ArrayList(Collection<? extends E> c)` | It is used to build an array list that is initialized with the elements of the collection c.
-| `ArrayList(int capacity)` | It is used to build an array list that has the specified initial capacity.
+| `ArrayList()` | It is used to build an empty array list.|
+| `ArrayList(Collection<? extends E> c)` | It is used to build an array list that is initialized with the elements of the collection c.|
+| `ArrayList(int capacity)` | It is used to build an array list that has the specified initial capacity.|
 
 ### Methods of ArrayList
 | Method | Description |
