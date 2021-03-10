@@ -37,7 +37,7 @@ public class JavaHashSet {
 
         System.out.println("\nHashSet doesn't allow duplicate elements:");
         // Traversing elements
-        Iterator iterator = set.iterator();
+        Iterator<String> iterator = set.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
