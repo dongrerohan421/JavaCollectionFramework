@@ -22,7 +22,7 @@ public class JavaHashSet {
         set.add("Five");
 
         System.out.println("Notice, the elements iterate in an unordered collection:");
-        Iterator iterator = set.iterator();
+        Iterator<String> iterator = set.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
